@@ -27,9 +27,9 @@ public:
 	*/
 
 private:
-	double radius;
-	double height;
-	double pi = 3.14159;
+	double radius;	// Raduis value = r
+	double height;	// Height value = h
+	double pi = 3.14159; // pi value
 };
 
 
