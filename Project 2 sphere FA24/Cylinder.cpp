@@ -38,7 +38,7 @@ double Cylinder::getHeight()
 double Cylinder::calculateVolume()
 {
 	// Volume funtion for cylinder
-	return pi * (radius, 3) * (radius, 3) * (height, 4);
+	return pi * (getRadius()) * (getRadius()) * (getHeight());
 
 	/* Instead of using pow to double my radius I just timesed it by itself.
 	* I also did this in my surface area calcualtion
@@ -48,5 +48,5 @@ double Cylinder::calculateVolume()
 double Cylinder::calculateSurfaceArea()
 {
 	// Surface Area funtion for cylinder
-	return 2 * pi* (radius,3) * (height,4) + 2 * pi * (radius,3) * (radius,3);
+	return 2 * pi* (getRadius ()) * (getHeight ()) + 2 * pi * (getRadius ()) * (getRadius ());
 }

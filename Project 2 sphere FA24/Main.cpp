@@ -16,7 +16,7 @@ int main()
 	s.setHeight(4);
 	s.setRadius(3);
 	std::cout << "The volume of the Cylinder is:" << s.calculateVolume() << std::endl
-		<< "The surfacearea of the Cylinder is:" << s.calculateSurfaceArea() << std::endl
+		<< "The surface area of the Cylinder is:" << s.calculateSurfaceArea() << std::endl
 		; return 0;
 }
 /*this set of code shows the main function of my project which is to Show either the surface area or volume 
